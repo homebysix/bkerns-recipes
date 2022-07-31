@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/local/autopkg/python
 
 import os
 import shutil
 
-if os.path.exists('/Applications/Syncplicity.app'):
-    shutil.rmtree('/Applications/Syncplicity.app')
+if os.path.exists("/Applications/Syncplicity.app"):
+    shutil.rmtree("/Applications/Syncplicity.app")

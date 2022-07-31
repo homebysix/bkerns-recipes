@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/local/autopkg/python
 # -*- coding: utf-8 -*-
 
 from __future__ import absolute_import
@@ -35,7 +35,9 @@ class TechSmithURLProvider(URLGetter):
         },
     }
     output_variables = {
-        "url": {"description": "URL to the latest Techsmith product release.",},
+        "url": {
+            "description": "URL to the latest Techsmith product release.",
+        },
     }
 
     def main(self):
